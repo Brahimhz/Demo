@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Acme.BookStore.Web
@@ -8,6 +9,7 @@ namespace Acme.BookStore.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplication<BookStoreWebModule>();
+
         }
 
         public void Configure(IApplicationBuilder app)

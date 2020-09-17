@@ -24,5 +24,6 @@ namespace Acme.BookStore.Books
             UpdatePolicyName = BookStorePermissions.Books.Edit;
             DeletePolicyName = BookStorePermissions.Books.Delete;
         }
+
     }
 }
